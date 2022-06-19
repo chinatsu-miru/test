@@ -47,6 +47,10 @@ table {
   text-align: center;
 }
 
+thead tr {
+    background: none !important;
+}
+
 table img {
   width: 100%;
 }
@@ -64,4 +68,3 @@ td {
   margin: 0 auto;
   padding: 0 2vh;
 }
-
