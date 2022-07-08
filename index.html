@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,55 +8,93 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>test</h1>
-  <h2>text2</h2>
-  <p>追記※松田修正</p>
-  <table>
-    <thead>
-      <tr>
-        <th></th>
-        <th>A</th>
-        <th>B</th>
-        <th>C</th>
-        <th>D</th>
-        <th>E</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>〇</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>〇</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td></td>
-        <td>〇</td>
-        <td></td>
-        <td>〇</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>〇</td>
-        <td></td>
-        <td>〇</td>
-        <td>〇</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td></td>
-        <td>〇</td>
-        <td></td>
-        <td></td>
-        <td>〇</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <header>
+    <h1>TableSample</h1>
+  </header>
+
+  <main class="con-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th id="a" data-alpha="a">
+            <img src="https://placehold.jp/ff0000/ffffff/150x150.png" alt="">
+            <p>A</p>
+          </th>
+          <th id="b" data-alpha="b">
+            <img src="https://placehold.jp/2bff00/ffffff/150x150.png" alt="">
+            <p>B</p>
+          </th>
+          <th id="c" data-alpha="c">
+            <img src="https://placehold.jp/fbff00/000000/150x150.png" alt="">
+            <p>C</p>
+          </th>
+          <th id="d" data-alpha="d">
+            <img src="https://placehold.jp/ff7300/000000/150x150.png" alt="">
+            <p>D</p>
+          </th>
+          <th id="e" data-alpha="e">
+            <img src="https://placehold.jp/1100ff/fffafa/150x150.png" alt="">
+            <p>E</p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="one">
+          <td>
+            <img src="https://placehold.jp/24/cccccc/ffffff/250x50.png?text=1">
+            <p>1</p>
+          </td>
+          <td data-alpha="a">〇</td>
+          <td data-alpha="b"></td>
+          <td data-alpha="c"></td>
+          <td data-alpha="d"></td>
+          <td data-alpha="e">〇</td>
+        </tr>
+        <tr id="two">
+          <td>
+            <img src="https://placehold.jp/24/cccccc/ffffff/250x50.png?text=2">
+            <p>2</p>
+          </td>
+          <td data-alpha="a"></td>
+          <td data-alpha="b">〇</td>
+          <td data-alpha="c"></td>
+          <td data-alpha="d">〇</td>
+          <td data-alpha="e"></td>
+        </tr>
+        <tr id="three">
+          <td>
+            <img src="https://placehold.jp/24/cccccc/ffffff/250x50.png?text=3">
+            <p>3</p>
+          </td>
+          <td data-alpha="a">〇</td>
+          <td data-alpha="b"></td>
+          <td data-alpha="c">〇</td>
+          <td data-alpha="d">〇</td>
+          <td data-alpha="e"></td>
+        </tr>
+        <tr id="four">
+          <td>
+            <img src="https://placehold.jp/24/cccccc/ffffff/250x50.png?text=4">
+            <p>4</p>
+          </td>
+          <td data-alpha="a"></td>
+          <td data-alpha="b">〇</td>
+          <td data-alpha="c"></td>
+          <td data-alpha="d"></td>
+          <td data-alpha="e">〇</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <small>© ABC Co. Ltd. 2022</small>
+  </footer>
+<script src="main.js"></script>
 </body>
+
 </html>
